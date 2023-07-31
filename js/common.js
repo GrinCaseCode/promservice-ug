@@ -167,7 +167,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			}); 
 		}
 	}
- 
+  
 	 // стайлер для select
 	 $('select').styler();
 
