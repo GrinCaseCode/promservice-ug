@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed btn-fixed_catalog">
+				<i class="fal fa-bars"></i>
+			</a>
+			<a href="#" class="btn-fixed btn-fixed_basket">
+				<img src="img/cart.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed btn-fixed_favorites">
+				<img src="img/heart.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed btn-fixed_mobile">
+				<img src="img/mobile.svg" alt="alt">
+			</a>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header__wrapper">
+						<span class='sandwich sandwich_catalog'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Оптовая продажа металлопроката и кровельных материалов в Краснодаре</div>
+						</div>
+						<a href="#" class="btn-main btn-main_page">Калькулятор online</a>
+						<div class="form-search">
+							<input type="text" placeholder="Что вы ищете?" required="required">
+							<button class="btn-search"><i class="far fa-search"></i></button>
+						</div>
+						<div class="header-contacts">
+							<div class="header-contacts__line">
+								<a href="#"><i class="fab fa-whatsapp"></i></a>
+								<a href="tel:+79258716557" class="phone-main">+7 (925) 871-65-57</a>
+							</div>
+							<a href="#" class="link-page">Обратный звонок</a>
+						</div>
+						<a href="tel:+79258716557" class="mobile-phone"><i class="fas fa-phone-alt"></i></a>
+					</div>
+					<div class="menu-dropdown">
+						<div class="menu-dropdown__mobile">
+							<div class="form-search">
+								<input type="text" placeholder="Что вы ищете?" required="required">
+								<button class="btn-search"><i class="far fa-search"></i></button>
+							</div>
+						</div>
+						<ul class="nav-main">
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Калькулятор</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="menu-dropdown__mobile">
+							<a href="#" class="btn-main btn-main_page">Калькулятор online</a>
+							<div class="header-contacts">
+								<div class="header-contacts__line">
+									<a href="#"><i class="fab fa-whatsapp"></i></a>
+									<a href="tel:+79258716557" class="phone-main">+7 (925) 871-65-57</a>
+								</div>
+								<a href="#" class="link-page">Обратный звонок</a>
+							</div>
+						</div>
+					</div>
+					<span class='sandwich sandwich_close'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<ul class="menu">
+						<li><a href="#">Арматура</a></li>
+						<li><a href="#">Балка</a></li>
+						<li><a href="#">Лист</a></li>
+						<li><a href="#">Полоса</a></li>
+						<li><a href="#">Проволока</a></li>
+						<li><a href="#">Трубы</a></li>
+						<li><a href="#">Уголки</a></li>
+						<li><a href="#">Швеллер</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="slider-wrapper">
+							<ul class="slider-billbord">
+								<li>
+									<div class="item-billbord">
+										<h2 class="title-big">Оптовая и розничная продажа металлопроката</h2>
+										<ul class="list-page">
+											<li>В нашем каталоге более 600 видов металлопроката</li>
+											<li>Работаем с физическими и юридическими лицами</li>
+											<li>Для розницы действует оптовая цена</li>
+											<li>Двойной контроль веса</li>
+										</ul>
+										<a href="#" class="btn-main">Смотреть каталог</a>
+										<div class="item-billbord__image">
+											<img src="img/billbord1.jpg" alt="alt">
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item-billbord">
+										<h2 class="title-big">Оптовая и розничная продажа металлопроката</h2>
+										<ul class="list-page">
+											<li>В нашем каталоге более 600 видов металлопроката</li>
+											<li>Работаем с физическими и юридическими лицами</li>
+											<li>Для розницы действует оптовая цена</li>
+											<li>Двойной контроль веса</li>
+										</ul>
+										<a href="#" class="btn-main">Смотреть каталог</a>
+										<div class="item-billbord__image">
+											<img src="img/billbord1.jpg" alt="alt">
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item-billbord">
+										<h2 class="title-big">Оптовая и розничная продажа металлопроката</h2>
+										<ul class="list-page">
+											<li>В нашем каталоге более 600 видов металлопроката</li>
+											<li>Работаем с физическими и юридическими лицами</li>
+											<li>Для розницы действует оптовая цена</li>
+											<li>Двойной контроль веса</li>
+										</ul>
+										<a href="#" class="btn-main">Смотреть каталог</a>
+										<div class="item-billbord__image">
+											<img src="img/billbord1.jpg" alt="alt">
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="controls-slider"></div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_billbord1.svg" alt="alt">
+							</div>
+							<div class="item-advantage__content">
+								<p><strong>13 лет продаем металлопрокат</strong> и оказываем услуги резки и обработки металла</p>
+							</div>
+						</div>
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_billbord2.svg" alt="alt">
+							</div>
+							<div class="item-advantage__content">
+								<p><strong>Доставка день в день</strong> при оформлении заказа до 11:00</p>
+							</div>
+						</div>
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_billbord3.svg" alt="alt">
+							</div>
+							<div class="item-advantage__content">
+								<p><strong>Собственный крытый склад</strong> площадью более 9 000 м<sup>2</sup></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="categories">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Популярные категории товаров</h2>
+					<a href="#" class="btn-main btn-main_transparent">Все категории</a>
+				</div>
+				<div class="row row_categories">
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Профнастил</span>
+							<span class="item-category__image">
+								<img src="img/category1.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Швеллер обычный</span>
+							<span class="item-category__image">
+								<img src="img/category2.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Листы оцинкованные</span>
+							<span class="item-category__image">
+								<img src="img/category3.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Труба стальная</span>
+							<span class="item-category__image">
+								<img src="img/category4.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Арматура А500С</span>
+							<span class="item-category__image">
+								<img src="img/category5.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Уголок</span>
+							<span class="item-category__image">
+								<img src="img/category6.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Труба профильная прямоугольная</span>
+							<span class="item-category__image">
+								<img src="img/category7.png" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__title">Труба профильная квадрат</span>
+							<span class="item-category__image">
+								<img src="img/category8.png" alt="alt">
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<h2 class="title-section">ТОП-10 популярных товаров по профнастилу</h2>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<div class="tags-card">
+								<div class="tag-card tag-card_hit">хит продаж</div>
+								<div class="tag-card tag-card_recomend">рекомендуем</div>
+							</div>
+							<div class="btn-like active"><i class="far fa-heart"></i></div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Профнастил ПК-20, 0,35-0,7 мм <br>RAL 3009 </a>
+							<div class="features-wrapper">
+								<div class="feature">
+									<strong>Артикул:</strong>
+									<span>123456</span>
+								</div>
+								<div class="feature">
+									<strong>Ширина листа:</strong>
+									<span>1.14 м</span>
+								</div>
+								<div class="feature">
+									<strong>Класс:</strong>
+									<span>Премиум, Стандарт</span>
+								</div>
+							</div>
+							<div class="price-main">470 ₽/м<sup>2</sup></div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity__text">м<sup>2</sup></div>
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-cart"></a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tags-card">
+								<div class="tag-card tag-card_hit">хит продаж</div>
+								<div class="tag-card tag-card_recomend">рекомендуем</div>
+							</div>
+							<div class="btn-like"><i class="far fa-heart"></i></div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Профнастил ПК-20, 0,35-0,7 мм <br>RAL 3009 </a>
+							<div class="features-wrapper">
+								<div class="feature">
+									<strong>Артикул:</strong>
+									<span>123456</span>
+								</div>
+								<div class="feature">
+									<strong>Ширина листа:</strong>
+									<span>1.14 м</span>
+								</div>
+								<div class="feature">
+									<strong>Класс:</strong>
+									<span>Премиум, Стандарт</span>
+								</div>
+							</div>
+							<div class="price-main">470 ₽/м<sup>2</sup></div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity__text">м<sup>2</sup></div>
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-cart"></a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tags-card">
+								<div class="tag-card tag-card_hit">хит продаж</div>
+								<div class="tag-card tag-card_recomend">рекомендуем</div>
+							</div>
+							<div class="btn-like"><i class="far fa-heart"></i></div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Профнастил ПК-20, 0,35-0,7 мм <br>RAL 3009 </a>
+							<div class="features-wrapper">
+								<div class="feature">
+									<strong>Артикул:</strong>
+									<span>123456</span>
+								</div>
+								<div class="feature">
+									<strong>Ширина листа:</strong>
+									<span>1.14 м</span>
+								</div>
+								<div class="feature">
+									<strong>Класс:</strong>
+									<span>Премиум, Стандарт</span>
+								</div>
+							</div>
+							<div class="price-main">470 ₽/м<sup>2</sup></div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity__text">м<sup>2</sup></div>
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-cart"></a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tags-card">
+								<div class="tag-card tag-card_hit">хит продаж</div>
+								<div class="tag-card tag-card_recomend">рекомендуем</div>
+							</div>
+							<div class="btn-like"><i class="far fa-heart"></i></div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Профнастил ПК-20, 0,35-0,7 мм <br>RAL 3009 </a>
+							<div class="features-wrapper">
+								<div class="feature">
+									<strong>Артикул:</strong>
+									<span>123456</span>
+								</div>
+								<div class="feature">
+									<strong>Ширина листа:</strong>
+									<span>1.14 м</span>
+								</div>
+								<div class="feature">
+									<strong>Класс:</strong>
+									<span>Премиум, Стандарт</span>
+								</div>
+							</div>
+							<div class="price-main">470 ₽/м<sup>2</sup></div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity__text">м<sup>2</sup></div>
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-cart"></a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tags-card">
+								<div class="tag-card tag-card_hit">хит продаж</div>
+								<div class="tag-card tag-card_recomend">рекомендуем</div>
+							</div>
+							<div class="btn-like"><i class="far fa-heart"></i></div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Профнастил ПК-20, 0,35-0,7 мм <br>RAL 3009 </a>
+							<div class="features-wrapper">
+								<div class="feature">
+									<strong>Артикул:</strong>
+									<span>123456</span>
+								</div>
+								<div class="feature">
+									<strong>Ширина листа:</strong>
+									<span>1.14 м</span>
+								</div>
+								<div class="feature">
+									<strong>Класс:</strong>
+									<span>Премиум, Стандарт</span>
+								</div>
+							</div>
+							<div class="price-main">470 ₽/м<sup>2</sup></div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity__text">м<sup>2</sup></div>
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-cart"></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Наши услуги</h2>
+					<a href="#" class="btn-main btn-main_transparent">Все услуги</a>
+				</div>
+				<div class="row row_services">
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service1.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Цинкование <br>металла</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service2.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Изготовление металлоконструкций</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service3.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Разгрузка <br>автокраном</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service4.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Доставка <br>металлопроката</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service5.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Абразивная <br>и гидроабразивная резка</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service6.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Лазерная <br>резка металла</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service7.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Плазменная <br>резка металла</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<a href="#" class="item-service">
+							<span class="item-service__image">
+								<img src="img/service8.jpg" alt="alt">
+							</span>
+							<span class="item-service__title">Газовая <br>резка металла</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation">
+			<div class="container">
+				<div class="consultation-block">
+					<h2 class="title-section">Предложим самую низкую цену в регионе!</h2>
+					<ul class="list-page">
+						<li>Даже в розницу мы реализуем товары по оптовым ценам</li>
+						<li>Предоставляем услуги по резке и цинкованию металла</li>
+						<li>Сотрудничество с нами будет выгодным для вас</li>
+					</ul>
+					<div class="title-middle">Рассчитать стоимость</div>
+					<div class="descr-small">Заполните форму и мы перезвоним вам и предложим самые выгодные условия</div>
+					<form>
+						<div class="row align-items-center">
+							<div class="col-lg">
+								<div class="item-form">
+									<input type="text" placeholder="Ваше имя" required="required">
+								</div>
+							</div>
+							<div class="col-lg">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" required="required">
+								</div>
+							</div>
+							<div class="col-lg">
+								<div class="file-upload">
+									<label><input type="file" name="file"><img src="img/paperclip.svg" alt="alt"> Прикрепить файл</label>
+									<div class="name-upload"></div>
+								</div>
+							</div>
+							<div class="col-lg">
+								<input type="submit" class="btn-main" value="Рассчитать стоимость">
+							</div>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Я согласен с условиями обработки персональных данных</span>
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="delivery">
+			<div class="container">
+				<h2 class="title-section">Доставка и оплата</h2>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="delivery-block">
+							<div class="title-block">Оплата</div>
+							<p>Мы принимаем все виды оплаты:</p>
+							<ul>
+								<li>по расчетному счету</li>
+								<li>наличными</li>
+								<li>online банкинг</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="delivery-block">
+							<div class="title-block">Способы доставки</div>
+							<ul>
+								<li>При оформление заказа до 10:00 доставка по Краснодарскому краю и Краснодару осуществляется день в день.</li>
+								<li>Доставку осуществляем индивидуально  по адресу клиента. </li>
+								<li>Доставляем как собственным транспортом, так и транспортными компаниями.г</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="contacts-block">
+							<div class="title-middle">Адрес:</div>
+							<p>г. Краснодар, ул. Новороссийская, 55</p>
+							<div class="title-middle">Телефон:</div>
+							<p><a href="tel:+88005009606">8 (800) 500 96 06</a></p>
+							<div class="title-middle">E-mail:</div>
+							<p><a href="mailto:zakaz@promservis-yug.ru">zakaz@promservis-yug.ru</a></p>
+							<div class="title-middle">Время работы:</div>
+							<p>Пн-Пт с 08:00 до 17:00 <br>Сб-Вс - выходной</p>
+							<a href="#" class="btn-main">Проложить маршрут</a>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Продажа металлогпроката оптом <br>и в розницу по Краснодарскому краю</div>
+						</div>
+						<div class="footer__title">Реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<p>ООО «Компания «ПРОМСЕРВИС-Юг»</p>
+							<p>Юридический адрес: 350080,</p>
+							<p>Краснодарский край, г. Краснодар,</p>
+							<p>ул. Новороссийская, 55, пом., 25</p>
+							<p>ИНН: 2311202525</p>
+							<p>КПП: 231201001</p>
+							<p>ОГРН: 1152311018617</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Каталог <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Профнастил</a></li>
+								<li><a href="#">Швеллер обычный</a></li>
+								<li><a href="#">Листы оцинкованные</a></li>
+								<li><a href="#">Труба стальная</a></li>
+								<li><a href="#">Арматура А500С</a></li>
+								<li><a href="#">Проволка ВР</a></li>
+								<li><a href="#">Труба профильная прямоугольная</a></li>
+								<li><a href="#">Труба профильная квадрат</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Калькулятор</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col_contacts">
+						<div class="footer__title">Контакты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<p><strong>Адрес:</strong></p>
+							<p>г. Краснодар, </p>
+							<p>ул. Новороссийская, 55</p>
+							<br>
+							<p><strong>Телефон:</strong></p>
+							<p><a href="tel:+88005009606">+ 8 (800) 500 96 06</a></p>
+							<br>
+							<p><strong>E-mail:</strong></p>
+							<p><a href="mailto:zakaz@promservis-yug.ru">zakaz@promservis-yug.ru</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg-3">
+							<p>г. Симферополь © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-xl-4 col-lg">
+							<a href="#" class="btn_top"><i class="fal fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map', {
+				center: [45.046546, 39.086255],
+				zoom: 17
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([45.046546, 39.086255], {
+				balloonContent: '<p class="logo-map"><img src="img/logo_min.svg" alt="alt"></p>'
+
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [18, 24],
+				iconImageOffset: [-9, -24],
+				balloonOffset: [0, -24]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+
+			myPlacemark1.balloon.open();
+		}
+	});
+</script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
