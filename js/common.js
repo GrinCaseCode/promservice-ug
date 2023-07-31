@@ -164,7 +164,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(".footer__title").click(function() {
 				$(this).toggleClass("active");
 				$(this).next(".footer__content").slideToggle(200);
-			});
+			}); 
 		}
 	}
 
