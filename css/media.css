@@ -641,7 +641,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.title-big {
-		font-size: 26px;
+		font-size: 26px; 
 	}
 	.slider-wrapper { 
 		margin: 0 -15px;
