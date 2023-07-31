@@ -9,7 +9,7 @@ $(window).scroll(function(){
 	} else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
 		$menu.removeClass("fixed").addClass("default");
 	}
-	
+
 });
 
 if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
@@ -140,7 +140,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 768,
 			settings: {
-				slidesToShow: 1,
+				slidesToShow: 2,
+				slidesToScroll: 2,
 				arrows: false,
 				dots: true,
 			}
