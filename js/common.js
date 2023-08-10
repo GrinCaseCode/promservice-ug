@@ -25,6 +25,21 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).toggleClass("active");
 	});
 
+	$(".switcher").click(function() {
+		$(this).toggleClass("active");
+	});
+
+	 $(".btn-main_filter").click(function(e) {
+	 	e.preventDefault();
+	 	$(".sidebar-catalog").slideToggle(200);
+	 });
+
+	  $("div.item-sidebar__head").click(function(e) {
+	 	e.preventDefault();
+	 	$(this).parent().toggleClass("active");
+	 	$(this).siblings(".item-sidebar__content").slideToggle(200);
+	 });
+
 
 	//кнопка sandwich
 	$(".sandwich_catalog").click(function() {
