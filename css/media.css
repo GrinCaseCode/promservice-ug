@@ -914,6 +914,10 @@
 		padding: 0 27px;
 		font-size: 14px;
 	}
+	.page-card .breadcrumbs {
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
 }
 
 /* Small Devices, Tablets */
