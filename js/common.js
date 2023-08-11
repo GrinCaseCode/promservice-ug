@@ -166,6 +166,24 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
+	 $('.tabs-card li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parents().find(".tab-pane-card").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	}); 
+
+	  $('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parents().find(".tab-pane").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
+	}); 
+
 
 	/*input file*/
 	$("input[type='file']").change(function(){

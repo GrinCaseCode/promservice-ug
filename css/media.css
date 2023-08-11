@@ -285,6 +285,113 @@
 	.page-catalog .title-section {
 		font-size: 29px;
 	}
+	.page-card {
+		font-size: 13px;
+	}
+	.card-actions .quantity {
+		width: 110px;
+		height: 40px;
+	}
+	.tab-container-card {
+		padding: 15px;
+		padding-top: 20px;
+	}
+	.card-actions .btn-main {
+		height: 53px;
+		font-size: 14px;
+	}
+	.card-actions .btn-main img {
+		max-width: 20px;
+	}
+	.line-card {
+		margin-top: 16px;
+		margin-bottom: 28px;
+	}
+	.image-card {
+		height: 267px;
+	}
+	.title-small_articul {
+		margin-bottom: 35px;
+	}
+	.tabs a {
+		font-size: 14px;
+	}
+	.page-card .tabs {
+		max-width: 376px;
+	}
+	.page-services {
+		padding-top: 26px;
+	}
+	.article-content blockquote {
+		padding: 26px 38px;
+	}
+	.form-bottom {
+		padding: 29px 125px;
+		padding-bottom: 38px;
+	}
+	.form-bottom .btn-main {
+		min-width: 220px;
+	}
+	.page-service .form-bottom {
+		margin-top: 30px;
+	}
+	.block-calculator {
+		padding: 27px 150px;
+		padding-bottom: 45px;
+	}
+	.line-calculator {
+		font-size: 13px;
+		margin-top: 15px;
+	}
+	.image-calculator {
+		height: 290px;
+	}
+	.selects-calculator .row {
+		margin: 0 -15px;
+	}
+	.selects-calculator .row > div {
+		padding: 0 15px;
+	}
+	.form-calculator {
+		padding: 21px 42px;
+	}
+	.selects-calculator {
+		padding: 0 30px;
+	}
+	.form-bottom.form-bottom_review {
+		padding-left: 240px;
+		padding-right: 240px;
+		margin-top: 38px;
+	}
+	.reviews-block {
+		padding: 25px;
+		padding-bottom: 10px;
+	}
+	.item-review {
+		padding: 25px 30px;
+	}
+	.reviews-block .row {
+		margin: 0 -9px;
+	}
+	.reviews-block .row > div {
+		padding: 0 9px;
+		margin-bottom: 18px;
+	}
+	.error-block {
+		padding: 30px;
+		min-height: 600px;
+	}
+	.error-block .title-section {
+		margin-bottom: 300px;
+	}
+	.descr-error {
+		max-width: 388px;
+		padding-bottom: 30px;
+		font-size: 18px;
+	}
+	.item-sidebar__head img {
+		max-width: 13px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -490,6 +597,51 @@
 	}
 	.page-catalog .title-section {
 		font-size: 22px;
+	}
+	.card-info {
+		margin-left: 20px;
+	}
+	.card-actions {
+		margin-left: 15px;
+	}
+	.line-card {
+		margin-top: 10px;
+		margin-bottom: 18px;
+		display: block;
+	}
+	.line-card__total {
+		margin-top: 15px;
+	}
+	.price-total {
+		margin-top: 0;
+	}
+	.article-content blockquote {
+		padding: 20px 20px;
+	}
+	.article-content img + blockquote {
+		margin-top: 40px;
+	}
+	.form-bottom {
+		padding: 29px 45px;
+		padding-bottom: 38px;
+	}
+	.title-form {
+		font-size: 25px;
+		padding-bottom: 9px;
+	}
+	.block-calculator {
+		padding: 27px 50px;
+		padding-bottom: 40px;
+	}
+	.block-calculator .form-bottom .btn-main {
+		padding: 0 30px;
+	}
+	.form-calculator {
+		padding: 21px 30px;
+	}
+	.form-bottom.form-bottom_review {
+		padding-left: 110px;
+		padding-right: 110px;
 	}
 }
 
@@ -710,6 +862,58 @@
 		width: 100%;
 		justify-content: space-between;
 	}
+	.image-card {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.card-actions,
+	.card-info {
+		margin: 0;
+	}
+	.line-card {
+		display: flex;
+	}
+	.line-card__total {
+		margin: 0;
+	}
+	.price-total {
+		margin-top: 5px;
+	}
+	.article-content img + blockquote {
+		margin-top: 25px;
+	}
+	.col-btn {
+		width: 100%;
+	}
+	.form-bottom .btn-main {
+		min-width: 241px;
+	}
+	.selects-calculator .row > div {
+		margin-bottom: 22px;
+	}
+	.image-calculator {
+		margin-bottom: 25px;
+	}
+	.item-review {
+		min-height: initial;
+	}
+	.error-block .title-section {
+		margin-bottom: 210px;
+	}
+	.error-block {
+		min-height: 445px;
+		padding: 25px;
+	}
+	.descr-error {
+		max-width: 346px;
+		padding-bottom: 19px;
+		font-size: 16px;
+	}
+	.error-block .btn-main {
+		height: 54px;
+		padding: 0 27px;
+		font-size: 14px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -883,6 +1087,61 @@
 	.item-news__image {
 		height: 185px;
 	}
+	.title-small_articul {
+		margin-bottom: 22px;
+	}
+	.card-info {
+		margin-bottom: 15px;
+	}
+	.page-card .tabs {
+		max-width: 100%;
+	}
+	.card-info .feature,
+	.page-card {
+		font-size: 14px;
+	}
+	.page-services {
+		padding-top: 16px;
+	}
+	.form-bottom .btn-main {
+		width: 100%;
+		margin-bottom: 0;
+		min-width: initial;
+	}
+	.form-bottom .checkbox {
+		margin-top: 15px;
+	}
+	.descr-form {
+		max-width: 306px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.block-calculator {
+		padding: 30px;
+	}
+	.selects-calculator {
+		padding: 0;
+	}
+	.page-service {
+		padding-bottom: 38px;
+	}
+	.form-bottom.form-bottom_review {
+		padding-left: 45px;
+		padding-right: 45px;
+		margin-top: 35px;
+	}
+	.page-reviews {
+		padding-bottom: 40px;
+	}
+	.item-review__head {
+		margin-bottom: 11px;
+	}
+	.form-bottom.form-bottom_review .btn-main {
+		margin-bottom: 0;
+	}
+	.error-block {
+		background-position: 52% 50%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1033,6 +1292,66 @@
 	}
 	.article-content li {
 		margin-left: 4px;
+	}
+	.page-card {
+		padding-bottom: 40px;
+	}
+	.form-bottom {
+		padding: 22px 25px;
+		padding-bottom: 33px;
+	}
+	.title-form {
+		font-size: 22px;
+		padding-bottom: 7px;
+	}
+	.page-service {
+		padding-bottom: 40px;
+	}
+	.block-calculator {
+		padding: 25px 20px;
+	}
+	.image-calculator {
+		height: 235px;
+	}
+	.form-calculator {
+		padding: 20px 15px;
+	}
+	.form-calculator .item-form {
+		margin-right: 20px;
+	}
+	.block-calculator .form-bottom {
+		padding: 30px 20px;
+	}
+	.page-reviews .title-section {
+		padding-top: 5px;
+	}
+	.reviews-block {
+		padding: 20px;
+		padding-bottom: 10px;
+	}
+	.item-review {
+		padding: 20px 15px;
+		border-radius: 10px;
+	}
+	.item-review__head {
+		display: block;
+	}
+	.item-review__head .rating {
+		margin-top: 7px;
+	}
+	.form-bottom.form-bottom_review {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.error-block .title-section {
+		margin-bottom: 160px;
+	}
+	.descr-error {
+		font-size: 14px;
+	}
+	.error-block {
+		min-height: 375px;
+		margin: 0 -15px;
 	}
 }
 
