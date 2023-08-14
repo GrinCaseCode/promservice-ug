@@ -14,7 +14,7 @@
 	.form-search {
 		width: 240px;
 	}
-	.header-contacts__line i {
+	.header-contacts__line i { 
 		font-size: 20px;
 	}
 	.header-contacts__line .phone-main {
@@ -392,7 +392,53 @@
 	.item-sidebar__head img {
 		max-width: 13px;
 	}
+	.thanks-block {
+		padding: 90px 260px;
+		padding-bottom: 80px;
+	}
+	.thanks-inner {
+		padding: 55px 75px;
+		padding-bottom: 55px;
+	}
+	.thanks-block .title-block {
+		padding-bottom: 33px;
+	}
+	.thanks-block .title-section {
+		padding-bottom: 25px;
+	}
+	.content-about {
+		padding: 0 40px;
+	}
+	.page-about .title-section {
+		padding-bottom: 54px;
+	}
+	.title-about {
+		font-size: 35px;
+		padding-bottom: 4px;
+	}
+	.value-about {
+		font-size: 114px;
+	}
+	.value-about span {
+		font-size: 35px;
+		margin-left: 24px;
+	}
+	.text-about {
+		font-size: 18px;
+	}
+	.image-about {
+		margin-top: 40px;
+		margin-bottom: -100px;
+	}
+	.bottom-about {
+		padding-top: 135px;
+	}
+	.text-block {
+		font-size: 16px;
+		padding: 30px 30px;
+	}
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.header__wrapper .logo-descr {
@@ -642,6 +688,45 @@
 	.form-bottom.form-bottom_review {
 		padding-left: 110px;
 		padding-right: 110px;
+	}
+	.thanks-block {
+		padding: 75px 180px;
+		padding-bottom: 65px;
+	}
+	.thanks-block .title-section {
+		padding-bottom: 17px;
+	}
+	.thanks-block .title-block {
+		padding-bottom: 29px;
+	}
+	.thanks-inner {
+		padding: 48px 45px;
+		padding-bottom: 50px;
+	}
+	.text-block {
+		font-size: 14px;
+		padding: 25px 20px;
+	}
+	.title-about {
+		font-size: 30px;
+	}
+	.value-about {
+		font-size: 100px;
+	}
+	.value-about span {
+		font-size: 31px;
+	}
+	.text-about p {
+		margin-bottom: 16px;
+	}
+	.text-about {
+		font-size: 16px;
+	}
+	.content-about {
+		padding: 0;
+	}
+	.page-about .title-section {
+		padding-bottom: 40px;
 	}
 }
 
@@ -909,6 +994,7 @@
 		padding-bottom: 19px;
 		font-size: 16px;
 	}
+	.thanks-block .btn-main,
 	.error-block .btn-main {
 		height: 54px;
 		padding: 0 27px;
@@ -917,6 +1003,33 @@
 	.page-card .breadcrumbs {
 		padding-bottom: 15px;
 		margin-bottom: 15px;
+	}
+	.thanks-block {
+		padding: 60px 80px;
+	}
+	.title-about {
+		font-size: 25px;
+	}
+	.value-about {
+		font-size: 85px;
+	}
+	.value-about span {
+		font-size: 25px;
+		margin-left: 15px;
+	}
+	.page-about .title-section {
+		padding-bottom: 30px;
+	}
+	.image-about {
+		margin-top: 35px;
+		margin-bottom: -70px;
+	}
+	.bottom-about {
+		padding-top: 110px;
+	}
+	.text-block {
+		min-height: initial;
+		height: auto;
 	}
 }
 
@@ -1146,6 +1259,25 @@
 	.error-block {
 		background-position: 52% 50%;
 	}
+	.thanks-block {
+		padding: 50px 31px;
+	}
+	.thanks-block .title-block {
+		font-size: 18px;
+	}
+	.thanks-inner {
+		padding: 35px 30px;
+	}
+	.bottom-about {
+		padding-top: 90px;
+	}
+	.image-about {
+		margin-top: 30px;
+		margin-bottom: -55px;
+	}
+	.row_main > div {
+		margin-bottom: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1353,9 +1485,40 @@
 	.descr-error {
 		font-size: 14px;
 	}
+	.thanks-block,
 	.error-block {
 		min-height: 375px;
 		margin: 0 -15px;
+	}
+	.thanks-block {
+		padding: 50px 15px;
+	}
+	.thanks-inner {
+		padding: 35px 15px;
+		border-radius: 14px;
+	}
+	.title-about {
+		font-size: 22px;
+	}
+	.value-about {
+		font-size: 76px; 
+	}
+	.value-about span {
+		font-size: 22px;
+		margin-left: 14px;
+	}
+	.text-about {
+		font-size: 14px;
+	}
+	.image-about img {
+		border-radius: 10px;
+	}
+	.image-about {
+		margin-top: 25px;
+		margin-bottom: -40px;
+	}
+	.bottom-about {
+		padding-top: 70px;
 	}
 }
 
